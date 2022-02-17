@@ -11,3 +11,37 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  twentytwentytwochild
 */
+
+.home.page-template-page-large-header .order-button {
+    text-transform: uppercase;
+    background-color: white;
+    border: solid 2px white;
+    color: black;
+    transition-duration: 0.5s;
+}
+
+.home.page-template-page-large-header .order-button:hover {
+    background-color: transparent;
+    color: white;
+}
+
+:not(.home) .order-button {
+    text-transform: uppercase;
+    background-color: black;
+    border: solid 2px black;
+    color: white;
+    transition-duration: 0.5s;
+}
+
+:not(.home) .order-button:hover {
+    background-color: transparent;
+    color: black;
+}
+
+.order-button > a {
+    margin: 16px;
+}
+
+.order-button > a:hover {
+    text-decoration: unset !important;
+}
