@@ -47,8 +47,9 @@
 }
 
 .wp-container-7.wp-elements-5fb3380efd09599f873f899a811347b1.wp-block-group.alignfull.has-background-color.has-foreground-background-color.has-text-color.has-background.has-link-color {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://gaiafinotello.it/wp-content/uploads/2022/10/onda_grande.jpg");
+
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://gaiafinotello.it/wp-content/uploads/2022/10/onda_grande.jpg");
 }
